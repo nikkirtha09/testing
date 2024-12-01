@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class arithmetic {
+public class arithmetic{
 
     @PostMapping("/cal")
     public String calculate(@RequestParam("num1") double num1, 
